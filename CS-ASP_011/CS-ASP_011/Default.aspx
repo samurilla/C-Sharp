@@ -19,6 +19,15 @@
             <asp:CheckBox ID="coolCheckBox" runat="server" Text="Are you cool?"/>
             <br />
             <br />
+            <br />
+            If you could only eat one food for the rest of your life, what would you choose?<br />
+            <asp:RadioButton ID="pizzaRadioButton" runat="server" Text="Pizza" GroupName="foodGroup"/>
+            <br />
+            <asp:RadioButton ID="saladRadioButton" runat="server" Text="Salad" GroupName="foodGroup"/>
+            <br />
+            <asp:RadioButton ID="pbjRadioButton" runat="server" Text="Peanut Butter and Jelly" GroupName="foodGroup"/>
+            <br />
+            <br />
             <asp:Button ID="okButton" runat="server" Text="OK" OnClick="okButton_Click" />
             <br />
             <br />

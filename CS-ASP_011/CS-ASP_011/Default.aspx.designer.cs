@@ -49,6 +49,33 @@ namespace CS_ASP_011 {
         protected global::System.Web.UI.WebControls.CheckBox coolCheckBox;
         
         /// <summary>
+        /// pizzaRadioButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton pizzaRadioButton;
+        
+        /// <summary>
+        /// saladRadioButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton saladRadioButton;
+        
+        /// <summary>
+        /// pbjRadioButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton pbjRadioButton;
+        
+        /// <summary>
         /// okButton control.
         /// </summary>
         /// <remarks>

@@ -29,13 +29,35 @@ namespace CS_ASP_011
             }
             */
 
-            if (coolCheckBox.Checked == true)
+
+            /*
+            if (coolCheckBox.Checked)  // Unnecessary to add == true
             {
                 resultLabel.Text = "Yes, you are definitely cool.";
             }
             else
             {
                 resultLabel.Text = "Don't be so hard on yourself.";
+            }
+            */
+
+
+            //Make sure to group the radio buttons
+            if (pizzaRadioButton.Checked)
+            {
+                resultLabel.Text = "You must be from Chicago!";
+            }
+            else if (saladRadioButton.Checked)
+            {
+                resultLabel.Text = "You must be healthy.";
+            }
+            else if (pbjRadioButton.Checked)
+            {
+                resultLabel.Text = "You must be a fun loving person.";
+            }
+            else
+            {
+                resultLabel.Text = "Please select one of the options.";
             }
         }
     }
