@@ -54,6 +54,7 @@
             <asp:Button ID="purchaseButton" runat="server" Text="Purchase" OnClick="purchaseButton_Click" />
             <br />
             <br />
+            Total:
             <asp:Label ID="orderLabel" runat="server"></asp:Label>
             <br />
             <br />

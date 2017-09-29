@@ -21,7 +21,6 @@ namespace ChallengeFirstPapaBobsWebsite
             if (babySizeRadioButton.Checked)
             {
                 runningTotal = 10;
-                
             }
             else if (mamaSizeRadioButton.Checked)
             {
@@ -31,10 +30,8 @@ namespace ChallengeFirstPapaBobsWebsite
                 runningTotal = 16;
             }
 
-            if (deepDishRadioButton.Checked)
-            {
-                runningTotal += 2;
-            }
+
+            runningTotal = (deepDishRadioButton.Checked) ? runningTotal + 2 : runningTotal;
 
 
             //Toppings
@@ -69,12 +66,12 @@ namespace ChallengeFirstPapaBobsWebsite
                 redPepperCheckBox.Checked
                 && onionCheckBox.Checked))
             {
-                runningTotal += -2;
+                runningTotal -= 2;
             }
             
 
 
-            orderLabel.Text = "Total: $" + runningTotal.ToString();
+            orderLabel.Text = "$" + runningTotal.ToString();
         }
     }
 }
